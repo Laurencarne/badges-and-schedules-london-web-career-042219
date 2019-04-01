@@ -21,5 +21,5 @@ def printer(attendees)
   attendees.each {|x| printing.push(assign_rooms(attendees))}
   puts printing
 
-  
+
 end
