@@ -10,8 +10,8 @@ end
 
 def assign_rooms(array)
   rooms = []
-  array.each_with_index {|x, ind|
-  rooms.push("Hello, #{x}! You'll be assigned to room #{ind +=1}!")}
+  array.each_with_index(1) {|x, ind|
+  rooms.push("Hello, #{x}! You'll be assigned to room #{ind}!")}
   rooms
 end
 
@@ -20,4 +20,6 @@ def printer(attendees)
   attendees.each {|x| printing.push(batch_badge_creator(attendees))}
   attendees.each {|x| printing.push(assign_rooms(attendees))}
   puts printing
+
+  
 end
