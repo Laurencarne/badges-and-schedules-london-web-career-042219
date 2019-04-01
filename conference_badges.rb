@@ -14,3 +14,8 @@ def assign_rooms(array)
   rooms.push("Hello, #{x}! You'll be assigned to room #{ind +=1}!")}
   rooms
 end
+
+def printer()
+  puts batch_badge_creator
+  puts assign_rooms
+end
