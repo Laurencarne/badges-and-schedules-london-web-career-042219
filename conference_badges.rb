@@ -17,7 +17,7 @@ end
 
 def printer(array)
   array.each {|x|
-  puts batch_badge_creator(array)}
+  puts batch_badge_creator}
 #  printing = []
 #  attendees.each {|x| printing.push(batch_badge_creator(attendees))}
 #  attendees.each {|x| printing.push(assign_rooms(attendees))}
