@@ -11,7 +11,7 @@ end
 def assign_rooms(array)
   rooms = []
   array.each_with_index {|x, ind|
-  array[x] = ind
+  rooms[x] = ind
 }
 rooms
 end
