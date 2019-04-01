@@ -19,5 +19,6 @@ def printer(array)
   printing = []
   array.each {|x| printing.push(batch_badge_creator(array))}
   array.each {|x| printing.push(assign_rooms(array))}
+  printing.each {|x| puts printing[0]}
   puts printing
 end
