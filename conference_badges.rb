@@ -7,3 +7,11 @@ def batch_badge_creator(array)
   array.each {|x| batch.push(badge_maker(x))}
   batch
 end
+
+def assign_rooms(array)
+  rooms = []
+  array.each_with_index {|x, ind|
+  array[x] = ind
+}
+rooms
+end
