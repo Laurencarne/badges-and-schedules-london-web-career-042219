@@ -24,6 +24,3 @@ end
 #  attendees.each {|x| printing.push(batch_badge_creator(attendees))}
 #  attendees.each {|x| printing.push(assign_rooms(attendees))}
 #  puts printing
-
-
-end
