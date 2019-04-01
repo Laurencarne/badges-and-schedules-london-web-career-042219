@@ -11,7 +11,6 @@ end
 def assign_rooms(array)
   rooms = []
   array.each_with_index {|x, ind|
-  rooms[x] = ind
-}
-rooms
+  rooms.push("Hello, #{x}! You'll be assigned to room #{inx}!")}
+  rooms
 end
