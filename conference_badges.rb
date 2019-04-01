@@ -16,6 +16,7 @@ def assign_rooms(array)
 end
 
 def printer(array)
+  array.each {|x|}
   puts batch_badge_creator(array)
 #  printing = []
 #  attendees.each {|x| printing.push(batch_badge_creator(attendees))}
